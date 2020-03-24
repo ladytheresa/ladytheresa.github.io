@@ -94,10 +94,10 @@ if($role == 1){
             </thead>
             <tbody class="table-light">
                 <?php
-                    $host = "localhost";
-                    $username = "root";
-                    $dbname = "uts";//isi
-                    $password = "";
+                    $host = "us-cdbr-iron-east-04.cleardb.net";
+                    $username = "bfdbd267514d1b";
+                    $dbname = "heroku_02046b106784c9b";//isi
+                    $password = "7aa1a032";
                     $db = new mysqli($host, $username, $password, $dbname);
                     $json_array=array();
                 
